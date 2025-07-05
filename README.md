@@ -106,5 +106,3 @@ CREATE TABLE `bank_bin` (
 ---
 
 **公益免费，无需付费。谨防诈骗！**
-
-© [Zhuli.Pro](https://zhuli.pro) | 鲁ICP备2025169043号
