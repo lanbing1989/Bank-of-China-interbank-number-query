@@ -150,7 +150,8 @@ function e($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
         </nav>
         <?php endif; ?>
         <footer class="text-center pt-5 pb-3 small">
-            &copy; <?=date('Y')?>银行联行号查询|银行卡归属行查询 助理Pro Zhuli.Pro <a href="https://github.com/lanbing1989/" target="_blank">GitHub</a>
+            本网站是非营利性公益网站，全程免费查询，无需关注公众号或者付费，如果有人让您付费查询，请谨防诈骗。<br/>
+            &copy; <?=date('Y')?>银行联行号查询|银行卡归属行查询 助理Pro Zhuli.Pro 鲁ICP备2025169043号
         </footer>
     </div>
 </body>

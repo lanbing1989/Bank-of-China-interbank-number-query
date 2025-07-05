@@ -84,7 +84,7 @@ function e($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 <html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
-    <title>银行卡批量归属行查询</title>
+    <title>中国银行卡归属行批量查询</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <style>
@@ -133,7 +133,7 @@ function e($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.php">
                 <img src="https://img.icons8.com/ios-filled/50/4a90e2/bank-building.png" class="logo me-2" alt="logo">
-                <span class="main-title fw-bold fs-4">银行联行号查询|银行卡归属行查询</span>
+                <span class="main-title fw-bold fs-4">中国银行卡归属行批量查询</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="切换导航">
                 <span class="navbar-toggler-icon"></span>
@@ -208,7 +208,8 @@ function e($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
             <?php endif; ?>
         </div>
         <footer class="text-center pt-5 pb-3 small">
-            &copy; <?=date('Y')?> 银行联行号查询|银行卡归属行查询 助理Pro Zhuli.Pro <a href="https://github.com/lanbing1989/" target="_blank">GitHub</a>
+            本网站是非营利性公益网站，全程免费查询，无需关注公众号或者付费，如果有人让您付费查询，请谨防诈骗。<br/>
+            &copy; <?=date('Y')?> 银行联行号查询|银行卡归属行查询 助理Pro Zhuli.Pro 鲁ICP备2025169043号
         </footer>
     </div>
 </body>
